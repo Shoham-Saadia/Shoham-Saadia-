@@ -7,10 +7,10 @@ The code is written in C language and is based on the code from https://github.c
 
 To compress use main-c in the build operation and then: 
 
-./run_Forward_c.o \<source\> \<destination\> .
+./run_Forward_c.o \<source\> \<destination\> 
   (while source is the text file and destination is the compress binary file.)
   
 To decode, use main-e in the build operation and then:
 
-./run_Forward_e.o source destination .
+./run_Forward_e.o \<source\> \<destination\> 
     (while source is the compress binary file of Forward_c and the destination is the decode file.)
